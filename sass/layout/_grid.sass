@@ -1,6 +1,6 @@
 .grid
   display: grid
-  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 400px / 1fr 585px 585px 1fr
+  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 450px "pstrs pstrs pstrs pstrs" 675px "provan provan provan provan" 700px / 1fr 585px 585px 1fr
 
 header
   height: 15vh
@@ -17,3 +17,14 @@ header
 
 .about
   grid-area: about
+
+.section3
+  grid-area: pstrs
+  display: grid
+  grid-template: ". . pst ." 100% / 1fr 585px 585px 1fr
+
+.pastors
+  grid-area: pst
+
+.section4
+  grid-area: provan
