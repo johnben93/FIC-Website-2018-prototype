@@ -137,7 +137,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 450px "pstrs pstrs pstrs pstrs" 675px "provan provan provan provan" 700px / 1fr 585px 585px 1fr; }
+  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 450px "pstrs pstrs pstrs pstrs" 675px "provan provan provan provan" 700px ". loc loc ." 650px / 1fr 585px 585px 1fr; }
 
 header {
   height: 15vh;
@@ -165,6 +165,20 @@ header {
 
 .section4 {
   grid-area: provan; }
+
+.section5 {
+  grid-area: loc;
+  display: grid;
+  grid-template: "cju cju" 25% "zion mizpah" 75% / 1fr 1fr; }
+
+.comejoinus {
+  grid-area: cju; }
+
+.ficzion {
+  grid-area: zion; }
+
+.ficmizpah {
+  grid-area: mizpah; }
 
 .hero {
   background: url("../img/FIC_Hero.jpg") 50% no-repeat;
@@ -234,6 +248,32 @@ header {
 
 .p-italics {
   font-style: italic; }
+
+.section5 {
+  text-align: center; }
+
+.comejoinus {
+  padding: 3em 30em 0 30em; }
+
+.h3-s5 {
+  padding-top: 1rem;
+  font-weight: 600; }
+
+.ficzion {
+  padding-top: 2em;
+  padding-left: 12em; }
+
+.ficmizpah {
+  padding-top: 2em;
+  padding-right: 12em; }
+
+.loc-img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 200px; }
+
+.p-s5 {
+  margin: 0; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
