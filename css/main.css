@@ -1,25 +1,38 @@
+.white {
+  color: #FFFFFA; }
+
+.dgrey {
+  color: #333138; }
+
+.lgrey {
+  color: #95989A; }
+
+.cblack {
+  color: #000103; }
+
 .h1 {
-  font-size: 63.96px;
-  font-weight: 600; }
+  font-size: 63.96px; }
 
 .h2 {
-  font-size: 45.23px;
-  font-weight: 800;
-  color: #333138;
-  margin: 0;
-  padding: 0; }
+  font-size: 45.23px; }
 
 .h3 {
-  font-size: 31.99px;
-  color: #333138;
-  margin: 0;
-  padding: 0; }
+  font-size: 31.99px; }
 
 .h4 {
   font-size: 22.62px; }
 
 .h5 {
   font-size: 16px; }
+
+.bold {
+  font-weight: 600; }
+
+.black {
+  font-weight: 800; }
+
+.italics {
+  font-style: italic; }
 
 .btn {
   font-size: 1rem;
@@ -135,9 +148,13 @@ body {
   width: 1170px;
   margin: 0 auto; }
 
+.mp {
+  margin: 0;
+  padding: 0; }
+
 .grid {
   display: grid;
-  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 450px "pstrs pstrs pstrs pstrs" 675px "provan provan provan provan" 700px ". loc loc ." 650px / 1fr 585px 585px 1fr; }
+  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 450px "pstrs pstrs pstrs pstrs" 675px "provan provan provan provan" 700px ". loc loc ." 650px "ft ft ft ft" 350px / 1fr 585px 585px 1fr; }
 
 header {
   height: 15vh;
@@ -154,6 +171,9 @@ header {
 
 .about {
   grid-area: about; }
+
+.cross {
+  grid-area: cross; }
 
 .section3 {
   grid-area: pstrs;
@@ -179,6 +199,17 @@ header {
 
 .ficmizpah {
   grid-area: mizpah; }
+
+.footer {
+  grid-area: ft;
+  display: grid;
+  grid-template: ". office contact ." 100% / 1fr 275px 275px 1fr; }
+
+.office {
+  grid-area: office; }
+
+.contact {
+  grid-area: contact; }
 
 .hero {
   background: url("../img/FIC_Hero.jpg") 50% no-repeat;
@@ -256,8 +287,7 @@ header {
   padding: 3em 30em 0 30em; }
 
 .h3-s5 {
-  padding-top: 1rem;
-  font-weight: 600; }
+  padding-top: 1rem; }
 
 .ficzion {
   padding-top: 2em;
@@ -272,8 +302,10 @@ header {
   height: auto;
   border-radius: 200px; }
 
-.p-s5 {
-  margin: 0; }
+.footer {
+  background: #333138;
+  text-align: center;
+  padding: 3em; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document

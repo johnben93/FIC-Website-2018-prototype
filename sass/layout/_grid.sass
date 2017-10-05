@@ -1,6 +1,6 @@
 .grid
   display: grid
-  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 450px "pstrs pstrs pstrs pstrs" 675px "provan provan provan provan" 700px ". loc loc ." 650px / 1fr 585px 585px 1fr
+  grid-template: "hero hero hero hero" 100vh ". abt-us abt-us ." 450px "pstrs pstrs pstrs pstrs" 675px "provan provan provan provan" 700px ". loc loc ." 650px "ft ft ft ft" 350px / 1fr 585px 585px 1fr
 
 header
   height: 15vh
@@ -17,6 +17,9 @@ header
 
 .about
   grid-area: about
+
+.cross
+  grid-area: cross
 
 .section3
   grid-area: pstrs
@@ -42,3 +45,14 @@ header
 
 .ficmizpah
   grid-area: mizpah
+
+.footer
+  grid-area: ft
+  display: grid
+  grid-template: ". office contact ." 100% / 1fr 275px 275px 1fr
+
+.office
+  grid-area: office
+
+.contact
+  grid-area: contact
